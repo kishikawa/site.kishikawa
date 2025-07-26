@@ -1,76 +1,49 @@
-    <css>body {
-        background-color: #f0f0f0;
-        color: #500000;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 50px;
-    }
-
-    h1 {
-        color: #2a7cce;
-        font-size: px;
-        margin-bottom: 20px;
-        
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    a {
-        color: #2980b9;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-header {
-    background-color: #2a7cce;
-    padding: 1%;
-    margin: 0;
-    width: 100%;
+body {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Arial, sans-serif;
     text-align: center;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 50px;
+    margin: 0;
+    /* 追加：ブラウザのデフォルト余白を除去 */
 }
 
-    header h1 {
-        margin: 0;
-    }
+h1,
+h2 {
+    color: #2a7cce;
+    font-size: 48px;
+    margin: 0 0 20px 0;
+    /* 上下余白を調整 */
+    max-width: 100%;
+    /* 横幅制限は有効 */
+    /* max-height: 50%; は意味がないので削除 */
+}
 
-    header p {
-        margin: 10px 0;
-    }
+p {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    /* 読みやすくするために余白追加 */
+}
 
-    header a {
-        font-weight: bold;
-    }
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
 
-    header a:hover {
-        color: #3498db;
-    }
+a:hover {
+    text-decoration: underline;
+}
 
-    header {
-        font-size: 24px;
-        line-height: 1.5;
-    }
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
 
-    header {
-        margin: 20px auto;
-        max-width: 600px;
-    }
+footer a {
+    color: #2980b9;
+}
 
-    header {
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    header {
-        transition: background-color 0.3s ease;
-    }
-
-    header:hover {
-        background-color: #dfe6e9;
-    }
-
-    </css>
+footer a:hover {
+    text-decoration: underline;
+}
